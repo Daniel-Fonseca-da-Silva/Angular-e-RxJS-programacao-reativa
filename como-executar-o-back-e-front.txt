@@ -1,0 +1,10 @@
+Navegar para dentro da pasta API
+npm i para instalar
+npm start para iniciar
+
+Navegar para dentro da pasta byte-bank-broker
+npm i
+ng serve --o
+
+usuario: alvaro
+senha: 123

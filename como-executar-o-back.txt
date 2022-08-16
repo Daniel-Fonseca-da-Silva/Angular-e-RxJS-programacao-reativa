@@ -1,3 +1,0 @@
-Navegar para dentro da pasta API
-npm i para instalar
-npm start para iniciar
