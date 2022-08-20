@@ -4,7 +4,7 @@
       <po-input p-label="Ações" [formControl]="acoesInput"></po-input>
     </div>
   </div>
-  <div class="tdd-page-wrapper" *ngIf="acoes; else elseBlock">
+  <div class="tdd-page-wrapper" *ngIf="acoes$ | async as acoes ; else elseBlock">
     <div class="po-row">
       <div class="po-md-4" *ngFor="let acao of acoes">
         <app-card-acoes [acao]="acao"></app-card-acoes>
